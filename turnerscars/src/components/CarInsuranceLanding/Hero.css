@@ -1,0 +1,67 @@
+
+
+.Hero__container {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--blue);
+    height: 739px;
+    width: 100vw;
+}
+
+.Hero__text-container {
+    width: 55%;
+    margin-top: 171px;
+    margin-bottom: 171px;
+}
+
+.Hero__text-title {
+    font-size: 64px;
+    font-weight: 800;
+    color: var(--white);
+    margin-left: 80px;
+}
+
+
+.Hero__text-body {
+    font-size: 24px;
+    color: var(--white);
+    line-height: 1.5;
+    letter-spacing: -0.48px;
+    margin-left: 80px;
+}
+
+.Hero__qoute-button {
+    background-color: var(--green);
+    height: 83px;
+    width: 308px;
+    border-radius: 60px;
+    color: var(white);
+    display: flex;
+    margin-top: 32px;
+    margin-left: 80px;
+    
+}
+
+.Hero__qoute-button-text {
+    color: var(--white);
+    margin: auto;
+    font-size: 36px;
+}
+
+
+
+.Hero__image-container {
+    width: 45%;
+    margin-top: 58px;
+    display: flex;
+    background-image: url("../../../public/whitedots.png");
+    background-repeat: no-repeat;
+}
+
+.Hero__driver-image {
+    position: absolute;
+    margin-left: 63px;
+    margin-top: 69px;
+    height: 45vw;
+    
+}

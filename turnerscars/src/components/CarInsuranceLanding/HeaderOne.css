@@ -1,0 +1,65 @@
+:root {
+    --blue: #0076be;
+    --white: #ffffff;
+    --green: #12b72d;
+    --lightblue: #004670;
+  }
+
+.HeaderOne__Parent-Container {
+    display: flex;
+    flex-direction: row;
+    height: 66px;
+    width: 100vw;
+    position: fixed;
+    background-color: var(--white);
+    z-index: 5;
+}
+
+.HeaderOne__Child-Container-Left {
+    display: flex;
+    flex-direction: row;
+    margin-left: 32px;
+}
+
+.HeaderOne__Logo {
+    height: 52px;
+    margin-top: auto;
+    margin-bottom: auto;
+    
+}
+
+.HeaderOne__Child-Container-Right {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: 32px;
+    gap: 20px;
+}
+
+.HeaderOne__Child-Container-Right>div {
+   height: 22px;
+   padding-top: 11px;
+   padding-bottom: 11px;
+   margin-top: auto;
+   margin-bottom: auto;
+   padding-left: 32px;
+   padding-right: 32px;
+   vertical-align: middle;
+   
+}
+.HeaderOne__button {
+    color: var(--blue);
+}
+
+.HeaderOne__button-white {
+    border-radius: 22px;
+    background-color: var(--white);
+    color: var(--blue);
+    border: solid 1px var(--blue);
+}
+
+.HeaderOne__button-blue {
+    border-radius: 22px;
+    background-color: var(--blue);
+    color: white;
+}

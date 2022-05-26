@@ -1,0 +1,60 @@
+.FAQ__container {
+    background-color: var(--bluegrey);
+}
+
+.FAQ {
+    background-color: var(--bluegrey);
+    display: flex;
+    flex-direction: column;
+    margin-left: 8vw;
+    margin-right: 8vw;
+    height: 80vh;
+}
+
+.FAQ__title {
+    color: var(--darkblue);
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.FAQ__table {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+
+.FAQ__table-line {
+    height: 1px;
+    background-color: #e6e6e6;
+}
+
+.FAQ__button-container {
+    display: flex;
+    gap: 40px;
+    width: 80%;
+    margin: auto;
+}
+
+.FAQ__blue-button {
+    background-color: var(--blue);
+    height: 60px;
+    display: flex;
+    border-radius: 30px;
+    box-shadow: 0 4px 4px 0 rgba(0,0,0,0.25);
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.FAQ__button-text {
+    color: var(--white);
+    margin: auto;
+    font-size: 24px;
+    margin: 15px;
+}

@@ -1,0 +1,81 @@
+.WhyTurners {
+    height: 80vh;
+    margin-top: 10vh;
+    margin-left: 8vw;
+}
+
+
+.WhyTurners__title {
+    color: var(--darkblue);
+    font-size: 48px;
+    font-weight: bold;
+    
+}
+
+.WhyTurners__content-container {
+    display: flex;
+    margin-top: 100px;
+}
+
+
+.WhyTurners__img {
+    width: 200%;
+    margin-right: 5vw;
+
+}
+
+.WhyTurners__right-container {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.WhyTurners__right-header {
+    font-size: 24px;
+    font-weight: 500;
+
+}
+
+.WhyTurners__card-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: auto;
+    margin-bottom: auto;
+    
+}
+
+.WhyTurners__card {
+    display: flex;
+    width: 40%;
+    margin-top: 20px;
+
+}
+
+.WhyTurners__card-image {
+    width:30%;
+
+}
+
+.WhyTurners__card-text-container {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.WhyTurners__card-header {
+    color: var(--blue);
+    font-size: 20px;
+    font-weight: 500px;
+
+}
+
+/* .WhyTurners__card-body {
+
+
+} */
+
+
+
+
+
+

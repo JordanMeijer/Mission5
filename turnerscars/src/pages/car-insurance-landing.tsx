@@ -14,17 +14,19 @@ import Footer from "../components/CarInsuranceLanding/Footer";
 
 function CarInsuranceLanding() {
     return (
-        <>
+        <div className="CarInsuranceLanding">
             <HeaderOne />
+            <div className="CarInsuranceLanding_HeaderOne-fake" />
             <HeaderTwo />
             <Hero />
+            <div className="CarInsuranceLanding__break"/>
             <WhyTurners />
             <CompareCoverage />
             <FAQ />
-            <img src="/tinaAwards.png" alt="image" className="Landing--TinaAwardsImg" />
+            <img src="/tinaAwards.png" alt="img" className="Landing--TinaAwardsImg" />
             <MyTurners />
             <Footer />        
-        </>
+        </div>
     )
 }
 

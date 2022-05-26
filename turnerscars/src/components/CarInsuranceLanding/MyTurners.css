@@ -1,0 +1,108 @@
+.MyTurners {
+    width: 100%;
+    background-image: url("../../../public/MyTurnersImg.png");
+    background-repeat: no-repeat;
+    background-size: 1920px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.MyTurners__title {
+    color: var(--darkblue);
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    margin-left: 8vw;
+    margin-top: 84px;
+}
+
+.MyTurners__container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.MyTurners__left-container {
+    width: 42%;
+    display: flex;
+    margin-left: 8%;
+    gap: 12px;
+}
+
+.MyTurners__icon-object {
+    display: flex;
+    flex-direction: column;
+}
+
+.MyTurners__icon-img {
+    height: 125px;
+}
+
+.MyTurners__icon-text {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 16px;
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--white);
+}
+
+
+.MyTurners__right-container {
+    width: 42%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 8%;
+}
+
+
+.MyTurners__text {
+    text-align: end;
+    margin-bottom: 78px;
+    font-size: 16px;
+}
+
+
+
+
+.MyTurners__button-container {
+    display: flex;
+    gap: 42px;
+    margin-left: auto;
+}
+
+.MyTurners__white-button {
+    background-color: var(--white);
+    height: 60px;
+    display: flex;
+    border-radius: 30px;
+    box-shadow: 0 4px 4px 0 rgba(0,0,0,0.25);
+    margin-top: 20px;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.MyTurners__blue-button {
+    background-color: var(--blue);
+    height: 60px;
+    display: flex;
+    border-radius: 30px;
+    box-shadow: 0 4px 4px 0 rgba(0,0,0,0.25);
+    margin-top: 20px;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.MyTurners__blue-text {
+    color: var(--blue);
+    margin: auto;
+    
+}
+
+.MyTurners__white-text {
+    color: var(--white);
+    margin: auto;
+}
