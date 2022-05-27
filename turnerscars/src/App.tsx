@@ -4,6 +4,8 @@ import './App.css';
 
 // routes
 import CarInsuranceLanding from './pages/car-insurance-landing';
+import QouteStep1 from './pages/qoute-step-1';
+import QouteStep2 from './pages/qoute-step-2';
 
 function App() {
   return (
@@ -11,6 +13,8 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<CarInsuranceLanding />} />
+          <Route path="/qoute-step-1" element={<QouteStep1 />} />
+          <Route path="/qoute-step-2" element={<QouteStep2 />} />
         </Routes>
       </BrowserRouter>
     

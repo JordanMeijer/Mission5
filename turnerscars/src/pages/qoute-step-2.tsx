@@ -1,13 +1,15 @@
 import React from "react";
 
-function qoutestep2() {
+function QouteStep2() {
     return (
         <>
-        
+         <div className="QouteStep2">
+            wasd
+        </div>
         </>
     )
 
 
 }
 
-export default qoutestep2
+export default QouteStep2
