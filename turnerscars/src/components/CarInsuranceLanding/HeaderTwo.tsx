@@ -7,7 +7,7 @@ function HeaderTwo() {
             <div className="HeaderTwo__parent-container">
                 <div className="HeaderTwo__menu-container">
                     <div className="HeaderTwo__menu-button"><span className="HeaderTwo__menu-button-text">Sell a car</span></div>
-                    <div className="HeaderTwo__menu-button"><span className="HeaderTwo__menu-button-text">Buy a car</span>r</div>
+                    <div className="HeaderTwo__menu-button"><span className="HeaderTwo__menu-button-text">Buy a car</span></div>
                     <div className="HeaderTwo__menu-button"><span className="HeaderTwo__menu-button-text">Hire a car</span></div>
                     <div className="HeaderTwo__menu-button"><span className="HeaderTwo__menu-button-text">Finance</span></div>
                     <div className="HeaderTwo__menu-button"><span className="HeaderTwo__menu-button-text-bold">Insurance</span></div>
